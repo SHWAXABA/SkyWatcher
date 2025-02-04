@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640660119724",
+    "project_id": "skywatcher-d1b8b",
+    "storage_bucket": "skywatcher-d1b8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640660119724:android:430c01fb94523ac9df7f09",
+        "android_client_info": {
+          "package_name": "com.example.skywatcher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKmlPyPhexvVsEA0n2-A3XTUWJuCFH7UM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

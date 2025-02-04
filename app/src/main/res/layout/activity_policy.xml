@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundsettings"
+    android:foregroundTint="@color/Azure"
+    tools:context=".SettingsPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextureView
+            android:id="@+id/textview69"
+            android:layout_width="271dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="116dp"
+            android:text="Our Policy"
+            android:textColor="#2537DC"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView22"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="376dp"
+            android:layout_height="292dp"
+            android:layout_marginTop="228dp"
+            android:text="At Skywatchers, we prioritize your privacy and safety. We collect only essential data to enhance app functionality, and we never sell or share your personal information without your consent. We promote responsible birdwatching, encouraging respect for wildlife and habitats.
+"
+            android:textColor="#090909"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.542"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

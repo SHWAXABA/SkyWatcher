@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundsettings"
+    android:foregroundTint="@color/Azure"
+    tools:context=".SettingsPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextureView
+            android:id="@+id/textview70"
+            android:layout_width="271dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="116dp"
+            android:text="Terms and Conditions"
+            android:textColor="#2537DC"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="374dp"
+            android:layout_height="514dp"
+            android:layout_marginTop="124dp"
+            android:text="By using Skywatchers, you agree to the following:
+
+User Account: You must create an account and are responsible for its security.
+
+Content Ownership: User-generated content remains yours, but you grant Skywatchers a license to use it within the app.
+
+User Conduct: Respectful behavior is required; harassment or illegal activity is prohibited.
+
+Limitation of Liability: Skywatchers is not liable for any damages resulting from app use.
+
+Changes to Terms: We may modify these terms, and continued use indicates acceptance of any changes.
+"
+            android:textColor="#090909"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
